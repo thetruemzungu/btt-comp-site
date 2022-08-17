@@ -16,9 +16,5 @@ export default new Router ({
         path: '/customer',
         name: 'CustomerSelect',
         component: CustomerSelect
-    },{
-        path: '/checkout',
-        name: 'Checkout',
-        component: CheckoutPage
-    }],
+    }
 });

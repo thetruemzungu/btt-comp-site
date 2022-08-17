@@ -1,6 +1,6 @@
 <template>
   <div class="MasterHeader" id="app">
-    <img alt="Vue logo" src="../assets/images/cfbr_logo.jpg">
+    <img alt="Vue logo" src="../assets/images/btt22_logo.jpg">
     
     <hr>
     <h1>{{ msg }}</h1>

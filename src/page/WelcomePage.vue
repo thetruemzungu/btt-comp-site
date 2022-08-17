@@ -1,21 +1,20 @@
 <template>
-  <div class="WelcomePage">
-    <MasterHeader msg="Want to get a drink?"></MasterHeader>
-    <DrinkList></DrinkList>
+  <div class="LandingPage">
+    <MasterHeader msg="Better Together Competition"></MasterHeader>
+    <IntermediateDivisionScoreboard></IntermediateDivisionScoreboard>
   </div>
 </template>
 
 <script>
-import DrinkList from '../components/DrinkList.vue'
 import MasterHeader from '../components/MasterHeader.vue'
 
 export default {
-  name: 'WelcomePage',
+  name: 'LandingPage',
   props: {
     msg: String
   },
   components: {
-    DrinkList,
+    IntermediateDivisionScoreboard,
     MasterHeader
   },
 }
